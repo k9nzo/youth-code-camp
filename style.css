@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: none;
+
+  @media only screen and (max-width: 768px) {
+    /* Your tablet styles here */
+  }
+
+  /* Styles for mobile phones */
+  @media only screen and (max-width: 480px) {
+    /* Your mobile styles here */
+  }
 }
 .logo1 {
   font-size: 24px;
