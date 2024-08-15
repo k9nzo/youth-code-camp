@@ -5,6 +5,14 @@ body {
   padding: 0;
   background-color: #f4f4f4;
 }
+@media only screen and (max-width: 768px) {
+  /* Your tablet styles here */
+}
+
+/* Styles for mobile phones */
+@media only screen and (max-width: 480px) {
+  /* Your mobile styles here */
+}
 .logo1 {
   font-size: 24px;
   margin-right: 1210px;
