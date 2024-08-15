@@ -8,7 +8,14 @@
   margin-left: 120px;
   border-radius: 5px;
 }
+@media only screen and (max-width: 768px) {
+  /* Your tablet styles here */
+}
 
+/* Styles for mobile phones */
+@media only screen and (max-width: 480px) {
+  /* Your mobile styles here */
+}
 body {
   background: #ffffff;
   font-size: 14px;

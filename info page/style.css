@@ -77,7 +77,14 @@ h3 {
 p {
   margin-bottom: 1rem;
 }
+@media only screen and (max-width: 768px) {
+  /* Your tablet styles here */
+}
 
+/* Styles for mobile phones */
+@media only screen and (max-width: 480px) {
+  /* Your mobile styles here */
+}
 ul,
 ol {
   margin-left: 2rem;
